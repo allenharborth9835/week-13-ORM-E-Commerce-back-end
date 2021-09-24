@@ -25,6 +25,8 @@ Github repo: https://github.com/coding-boot-camp/fantastic-umbrella
 
 ## Usage
 
+to use this applications you need to use insomnia to run the routes plaease follow the walk video.
+https://drive.google.com/file/d/1Ai8lwYGPYFl797uSBW8ZYf1_9lKPnCE9/preview
 
 
 ## License
