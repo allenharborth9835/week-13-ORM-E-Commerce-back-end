@@ -1,15 +1,17 @@
 # E-commerce Back End Starter Code
 <img src="https://img.shields.io/badge/license-Unlicensed-blue" alt="Unlicensed">   
 
- ## Description
- 
+## Description
+  in this project we had to complete a e-commerce website using sequelize. The first thing I had to do was create the varible sequlize in the server file and sync it before the port is started. 
+  I then create the columns for the models. I first created the category columns which will consist of an id which will be the primary key and the category name. the next columns I created were for the tags which are similar to the category model with just an id and tag name. the next columns I made where for the product model. in the products model I created the id, name, price, stock, and a category id that will link the product to a category. the last model I worked on was the product tag and I only had to give it an id, product id, and a tag id. This is to allow products to be connected to many different tags. I then had to create the connection of the models index file. I made product belongs to category through category id. I then made category to have many products. I finally made it where tags and products will have many connections to each other product tags. I then started to work on the routes. I made the get all in all of the route files similary, they also include the conections between products and categories. the next connections I made the files was the get one that has a passed parameter. For that I would take the in the id then match it with the git all route in that it includes the cinnections between products and categories. The nexts routes I created were the post routes. The post routes was already created in the started code but I had to create the other post which all I had to do was make a create function and have it take in the req.body and where input. the next routes were the put routes and once again it was already created for the the product routes. the other routes I created for the put is almost Idenical to the post route instead of using create I used update. the last routes I made were the delete routes which are identical to the get one routes but it uses the destroy method.
 
-  ## Table of Contents
+## Table of Contents
   * [Installation](#installation)
   * [Contributions](#contributions)
   * [Usage](#usage)
   * [License](#license)
   * [Contact-Info](#contact-info)
+
 ## Installation  
 
 Node must be installed please go to https://nodejs.org/en/ to install node.
